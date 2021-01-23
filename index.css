@@ -1,0 +1,15 @@
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 35vh;
+}
+
+.clock__title {
+  display: flex;
+  font-size: 15vh;
+}
+
+.clock__sec {
+  font-size: 40px;
+}
