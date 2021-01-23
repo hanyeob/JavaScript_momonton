@@ -24,3 +24,31 @@ body {
 .greetings {
   font-size: 2.5vh;
 }
+
+.List {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.list-text {
+  display: inline-flex;
+  box-sizing: content-box;
+  min-width: 100px;
+}
+
+ul {
+  padding-right: 20px;
+}
+
+.js-toDoList {
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+.js-doneList {
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
